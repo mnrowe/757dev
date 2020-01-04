@@ -6,6 +6,8 @@
           Join The Community!
         </div>
         <b-button
+          v-b-tooltip.hover
+          title="Join Slack"
           href="https://www.757dev.org/"
           target="_blank"
           size="lg"

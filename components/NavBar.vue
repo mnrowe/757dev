@@ -8,10 +8,10 @@
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav class="ml-auto">
-            <b-nav-item class="nav-item" href="#">About</b-nav-item>
-            <b-nav-item class="nav-item" href="#">FAQ</b-nav-item>
-            <b-nav-item class="nav-item" href="#">Code Of Conduct</b-nav-item>
             <b-nav-item class="nav-item" href="#">Meetups</b-nav-item>
+            <b-nav-item class="nav-item" href="#">About</b-nav-item>
+            <b-nav-item class="nav-item" href="#">Code Of Conduct</b-nav-item>
+            <b-nav-item class="nav-item" href="#">FAQ</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>
