@@ -5,7 +5,12 @@
         <div typ="dark" class="intro-heading">
           Join The Community!
         </div>
-        <b-button size="lg" class="text-uppercase jn-button" variant="success"
+        <b-button
+          href="https://www.757dev.org/"
+          target="_blank"
+          size="lg"
+          class="text-uppercase jn-button"
+          variant="success"
           >Join now</b-button
         >
       </div>
