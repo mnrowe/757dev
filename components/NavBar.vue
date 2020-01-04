@@ -31,4 +31,8 @@ img {
   letter-spacing: 1px;
   font-family: Montserrat;
 }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
 </style>
