@@ -21,7 +21,7 @@
 <style scoped>
 header {
   text-align: center;
-  height: 90vh;
+  height: 100vh;
   background-image: url('~assets/meetup.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
