@@ -7,7 +7,7 @@
       <div role="tablist">
         <b-card no-body class="mb-1">
           <b-card-header header-tag="header" class="p-1" role="tab">
-            <b-button block href="#" v-b-toggle.accordion-1 variant="success"
+            <b-button v-b-toggle.accordion-1 block href="#" variant="success"
               >Accordion 1</b-button
             >
           </b-card-header>
@@ -29,7 +29,7 @@
 
         <b-card no-body class="mb-1">
           <b-card-header header-tag="header" class="p-1" role="tab">
-            <b-button block href="#" v-b-toggle.accordion-2 variant="success"
+            <b-button v-b-toggle.accordion-2 block href="#" variant="success"
               >Accordion 2</b-button
             >
           </b-card-header>
@@ -42,7 +42,7 @@
 
         <b-card no-body class="mb-1">
           <b-card-header header-tag="header" class="p-1" role="tab">
-            <b-button block href="#" v-b-toggle.accordion-3 variant="success"
+            <b-button v-b-toggle.accordion-3 block href="#" variant="success"
               >Accordion 3</b-button
             >
           </b-card-header>
