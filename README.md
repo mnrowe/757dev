@@ -1,7 +1,16 @@
+# Goals
+Where the idea originated from [post](https://github.com/757io/757dev/issues/2)
+
+* Background image that represents 757dev community
+* FAQ to help answer questions that occur frequently
+* Easy to access slack invite link
+* Code of conduct
+* List of major events
+* Pull weekly events from Oauth2 Meetup API
+
 # Design
 
-Using this as inspiration [bootstrap-agency](https://blackrockdigital.github.io/startbootstrap-agency/)
-
+Using this as inspiration [bootstrap-agency](https://blackrockdigital.github.io/startbootstrap-agency/). If anyone has better idea for design I'm open to it.
 
 
 ## Build Setup
