@@ -1,4 +1,4 @@
-// TODO: Redundant amount of divs throughout pages
+<!-- TODO: Fix redudant amount of divs -->
 
 <template>
   <div class="test">
@@ -19,6 +19,7 @@ export default {
 
 <style scoped>
 .test {
-  background-color: red;
+  height: 100vh;
+  background-color: var(--dark);
 }
 </style>

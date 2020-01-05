@@ -1,3 +1,5 @@
+<!-- TODO: Limit amount of colors using after get layout all setup -->
+
 <template>
   <div>
     <NavBar />
