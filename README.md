@@ -10,7 +10,7 @@ Where the idea originated from [post](https://github.com/757io/757dev/issues/2)
 
 # Design
 
-Using this as inspiration [bootstrap-agency](https://blackrockdigital.github.io/startbootstrap-agency/). If anyone has better idea for design i'm open to it.
+Using this as inspiration [bootstrap-agency](https://blackrockdigital.github.io/startbootstrap-agency/). If anyone has better idea for design I'm open to it.
 
 
 ## Build Setup
