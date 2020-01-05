@@ -1,6 +1,9 @@
+// TODO: Redundant amount of divs throughout pages
+
 <template>
-  <div>
+  <div class="test">
     <NavBar />
+    <b-container></b-container>
   </div>
 </template>
 
@@ -14,4 +17,8 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.test {
+  background-color: red;
+}
+</style>

@@ -4,7 +4,7 @@
   <div>
     <b-container>
       <b-navbar fixed="top" toggleable="lg" type="dark">
-        <b-navbar-brand id="navbar-brand" href="#">
+        <b-navbar-brand id="navbar-brand" to="/">
           <img fluid src="~assets/757dev.png" />
         </b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -28,10 +28,11 @@ img {
 }
 
 .nav-item >>> a {
-  font-size: 90%;
+  font-size: 120%;
   font-weight: 400;
   letter-spacing: 1px;
   font-family: Montserrat;
+  text-shadow: black 2px 5px;
 }
 
 /*
