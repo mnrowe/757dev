@@ -1,15 +1,12 @@
-<!-- TODO: Fix redudant amount of divs -->
+<!-- TODO: Fix redundant amount of divs -->
 
 <template>
   <div class="test">
     <NavBar />
     <b-container>
+      <h1 class="text-left">Frequently Asked Questions</h1>
       <b-list-group>
-        <b-list-group-item
-          href="#"
-          active
-          class="flex-column align-items-start"
-        >
+        <b-list-group-item href="#" class="flex-column align-items-start">
           <div class="d-flex w-100 justify-content-between">
             <h5 class="mb-1">List group item heading</h5>
             <small>3 days ago</small>
@@ -22,11 +19,10 @@
 
           <small>Donec id elit non mi porta.</small>
         </b-list-group-item>
-
         <b-list-group-item href="#" class="flex-column align-items-start">
           <div class="d-flex w-100 justify-content-between">
             <h5 class="mb-1">List group item heading</h5>
-            <small class="text-muted">3 days ago</small>
+            <small>3 days ago</small>
           </div>
 
           <p class="mb-1">
@@ -34,17 +30,12 @@
             eget risus varius blandit.
           </p>
 
-          <small class="text-muted">Donec id elit non mi porta.</small>
+          <small>Donec id elit non mi porta.</small>
         </b-list-group-item>
-
-        <b-list-group-item
-          href="#"
-          disabled
-          class="flex-column align-items-start"
-        >
+        <b-list-group-item href="#" class="flex-column align-items-start">
           <div class="d-flex w-100 justify-content-between">
-            <h5 class="mb-1">Disabled List group item</h5>
-            <small class="text-muted">3 days ago</small>
+            <h5 class="mb-1">List group item heading</h5>
+            <small>3 days ago</small>
           </div>
 
           <p class="mb-1">
@@ -52,7 +43,7 @@
             eget risus varius blandit.
           </p>
 
-          <small class="text-muted">Donec id elit non mi porta.</small>
+          <small>Donec id elit non mi porta.</small>
         </b-list-group-item>
       </b-list-group>
     </b-container>
@@ -85,8 +76,13 @@ export default {
   background-color: var(--dark);
 }
 
+h1 {
+  padding-top: 200px;
+  text-shadow: 2px 5px black;
+}
+
 .list-group {
-  padding-top: 300px;
+  padding-top: 10px;
   padding-bottom: 200px;
 }
 </style>
