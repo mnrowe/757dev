@@ -4,7 +4,6 @@
   <div class="test">
     <NavBar />
     <b-container>
-      <h1 class="text-left">Frequently Asked Questions</h1>
       <b-list-group>
         <b-list-group-item href="#" class="flex-column align-items-start">
           <div class="d-flex w-100 justify-content-between">
@@ -76,13 +75,8 @@ export default {
   background-color: var(--dark);
 }
 
-h1 {
-  padding-top: 200px;
-  text-shadow: 2px 5px black;
-}
-
 .list-group {
-  padding-top: 10px;
+  padding-top: 200px;
   padding-bottom: 200px;
 }
 </style>

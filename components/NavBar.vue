@@ -13,7 +13,7 @@
             <b-nav-item class="nav-item" to="meetups">Meetups</b-nav-item>
             <b-nav-item class="nav-item" href="#">About</b-nav-item>
             <b-nav-item class="nav-item" href="#">Code Of Conduct</b-nav-item>
-            <b-nav-item class="nav-item" href="#">FAQ</b-nav-item>
+            <b-nav-item class="nav-item" href="faq">FAQ</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>
