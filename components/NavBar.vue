@@ -10,10 +10,10 @@
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav class="ml-auto">
-            <b-nav-item class="nav-item" to="Meetups">Meetups</b-nav-item>
-            <b-nav-item class="nav-item" to="About">About</b-nav-item>
-            <b-nav-item class="nav-item">Code Of Conduct</b-nav-item>
-            <b-nav-item class="nav-item" to="Faq">FAQ</b-nav-item>
+            <b-nav-item class="nav-item" to="meetups">Meetups</b-nav-item>
+            <b-nav-item class="nav-item" to="about">About</b-nav-item>
+            <b-nav-item class="nav-item" to="code-of-conduct">Code Of Conduct</b-nav-item>
+            <b-nav-item class="nav-item" to="faq">FAQ</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>
