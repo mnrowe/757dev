@@ -1,3 +1,5 @@
+// TODO: Change nav-item hover color to bootstrap success
+
 <template>
   <div>
     <b-container>
@@ -8,7 +10,7 @@
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav class="ml-auto">
-            <b-nav-item class="nav-item" href="#">Meetups</b-nav-item>
+            <b-nav-item class="nav-item" to="meetups">Meetups</b-nav-item>
             <b-nav-item class="nav-item" href="#">About</b-nav-item>
             <b-nav-item class="nav-item" href="#">Code Of Conduct</b-nav-item>
             <b-nav-item class="nav-item" href="#">FAQ</b-nav-item>
@@ -32,6 +34,9 @@ img {
   font-family: Montserrat;
 }
 
+/*
+Override bootstrap rules to make navbar links color #fff
+*/
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
 }
