@@ -12,7 +12,9 @@
           <b-navbar-nav class="ml-auto">
             <b-nav-item class="nav-item" to="meetups">Meetups</b-nav-item>
             <b-nav-item class="nav-item" to="about">About</b-nav-item>
-            <b-nav-item class="nav-item" to="code-of-conduct">Code Of Conduct</b-nav-item>
+            <b-nav-item class="nav-item" to="code-of-conduct"
+              >Code Of Conduct</b-nav-item
+            >
             <b-nav-item class="nav-item" to="faq">FAQ</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
