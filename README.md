@@ -1,3 +1,8 @@
+# Design
+
+Using this as inspiration [bootstrap-agency](https://blackrockdigital.github.io/startbootstrap-agency/)
+
+
 # 757-dev
 
 > landing page for 757 dev community
