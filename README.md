@@ -7,6 +7,7 @@ Where the idea originated from [post](https://github.com/757io/757dev/issues/2)
 * Code of conduct
 * List of major events
 * Pull weekly events from Oauth2 Meetup API
+* Need permission from organizers to use meetup logos
 
 # Design
 
