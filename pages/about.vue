@@ -17,6 +17,6 @@ export default {
 <style scoped>
 .test {
   height: 100vh;
-  background-color: var(--dark);
+  background-color: var(--pastel-green);
 }
 </style>

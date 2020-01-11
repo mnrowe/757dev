@@ -19,6 +19,7 @@
         mediums, and unwelcome sexual attention. Participants asked to stop any
         harassing behavior are expected to comply immediately.
       </p>
+      <hr />
       <p>
         Sponsors are also subject to the anti-harassment policy. In particular,
         sponsors should not use sexualized images, activities, or other
@@ -28,6 +29,7 @@
         action they deem appropriate, including warning the offender or
         expulsion from the Slack group.
       </p>
+      <hr />
       <p>
         If you are being harassed, notice that someone else is being harassed,
         or have any other concerns, please contact a member of the Slack group
@@ -54,11 +56,16 @@ export default {
 <style scoped>
 .test {
   height: 100vh;
-  background-color: var(--dark);
+  background-color: var(--pastel-green);
 }
 
 h1 {
-  padding-top: 200px;
-  text-shadow: 2px 5px black;
+  padding-top: 150px;
+  text-shadow: 2px 2px var(--catalina-blue);
+  color: var(--lochinvar);
+}
+
+p {
+  font-size: 1.3rem;
 }
 </style>

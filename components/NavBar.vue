@@ -31,16 +31,15 @@ img {
 
 .nav-item >>> a {
   font-size: 120%;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 1px;
   font-family: Montserrat;
-  text-shadow: black 2px 5px;
 }
 
 /*
 Override bootstrap rules to make navbar links color #fff
 */
 .navbar-dark .navbar-nav .nav-link {
-  color: #fff;
+  color: var(--catalina-blue);
 }
 </style>

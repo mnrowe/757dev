@@ -48,7 +48,7 @@
           </b-card-header>
           <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
             <b-card-body>
-              <b-card-text>{{ text }}</b-card-text>
+              <b-card-text></b-card-text>
             </b-card-body>
           </b-collapse>
         </b-card>
@@ -70,11 +70,11 @@ export default {
 <style scoped>
 .test {
   height: 100vh;
-  background-color: var(--dark);
+  background-color: var(--pastel-green);
 }
 
 h1 {
-  padding-top: 200px;
+  padding-top: 150px;
   text-shadow: 2px 5px black;
 }
 

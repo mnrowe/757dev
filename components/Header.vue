@@ -12,7 +12,6 @@
           target="_blank"
           size="lg"
           class="text-uppercase jn-button"
-          variant="success"
           >Join now</b-button
         >
       </div>
@@ -24,7 +23,7 @@
 header {
   text-align: center;
   height: 100vh;
-  background-image: url('~assets/meetup.jpg');
+  background-color: var(--pastel-green);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: 50%;
@@ -37,12 +36,14 @@ header {
   font-weight: 700;
   line-height: 75px;
   margin-bottom: 50px;
-  color: #fff;
-  text-shadow: black 2px 5px;
+  color: var(--loafer);
+  text-shadow: var(--catalina-blue) 2px 4px;
 }
 
 .jn-button {
-  color: #fff;
+  color: var(--loafer);
+  background-color: var(--catalina-blue);
+  font-family: Montseratt;
 }
 
 .intro-text {

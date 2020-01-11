@@ -12,7 +12,7 @@ export default {
         {
           rel: 'stylesheet',
           href:
-            'https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab&display=swaphttps://fonts.googleapis.com/css?family=Roboto+Slab&display=swap'
+            'https://fonts.googleapis.com/css?family=Merriweather|Montserrat&display=swap'
         }
       ]
     }
