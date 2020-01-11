@@ -5,7 +5,7 @@
     <b-container>
       <b-navbar fixed="top" toggleable="lg" type="dark">
         <b-navbar-brand id="navbar-brand" to="/">
-          <img fluid src="~assets/757dev.png" />
+          <img fluid src="~assets/757-nav.png" />
         </b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>

@@ -55,6 +55,16 @@ import NavBar from '~/components/NavBar'
 
 // const URL = 'https://api.meetup.com'
 
+// Hardcode events for now meetup API requires active pro subscription.
+// const events = {
+//   norfolkGo: {
+//     name: 'Norfolk Go',
+//     description:
+//       'This is a group for anyone interested in the Go programming language. Not just Go but anything that has to do with Go (i.e. Kubernetes, Docker, Terraform, etc). All skill levels are welcome.',
+
+//   }
+// }
+
 export default {
   components: {
     NavBar

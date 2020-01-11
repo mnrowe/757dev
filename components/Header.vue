@@ -3,7 +3,7 @@
     <b-container>
       <div class="intro-text">
         <div typ="dark" class="intro-heading">
-          Join The Community
+          Welcome to the Community
         </div>
         <b-button
           v-b-tooltip.hover
@@ -12,7 +12,7 @@
           target="_blank"
           size="lg"
           class="text-uppercase jn-button"
-          >Join now</b-button
+          >Join slack</b-button
         >
       </div>
     </b-container>

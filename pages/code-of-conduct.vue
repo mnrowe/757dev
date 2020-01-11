@@ -55,10 +55,9 @@ export default {
 
 <style scoped>
 .test {
-  height: 100vh;
   background-color: var(--pastel-green);
+  padding-bottom: 150px;
 }
-
 h1 {
   padding-top: 150px;
   text-shadow: 2px 2px var(--catalina-blue);
