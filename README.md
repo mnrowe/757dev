@@ -13,6 +13,13 @@ Where the idea originated from [post](https://github.com/757io/757dev/issues/2)
 
 Using this as inspiration [bootstrap-agency](https://blackrockdigital.github.io/startbootstrap-agency/). If anyone has better idea for design I'm open to it. Using bootstrap vue for UI framework [bootstrap-vue](https://bootstrap-vue.js.org/).
 
+colorscheme:
+loafer: #EDF5E1;
+algae-green: #8EE4AF;
+pastel-green: #5CDB95;
+lochinvar: #379683;
+catalina-blue: #05386B;
+
 
 ## Build Setup
 
