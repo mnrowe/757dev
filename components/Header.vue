@@ -34,7 +34,7 @@ header {
 }
 
 .intro-heading {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 30px;
   color: var(--loafer);
 }
@@ -52,5 +52,6 @@ header {
 
 .intro-text p {
   padding-top: 20px;
+  font-family: 'Montseratt';
 }
 </style>
