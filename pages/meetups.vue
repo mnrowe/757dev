@@ -5,7 +5,9 @@
     <NavBar />
     <b-container>
       <b-list-group>
+        <GroupItem :meetup="colorCoded" />
         <GroupItem :meetup="norfolkGo" />
+        <GroupItem :meetup="norfolkJS" />
       </b-list-group>
     </b-container>
   </div>
@@ -27,13 +29,25 @@ export default {
       norfolkGo: {
         name: 'Norfok Go',
         location: 'Norfolk, VA',
-        logo: '~assets/go.jpeg',
+        logo: '~/assets/go.jpeg',
         url: 'https://www.meetup.com/Norfolk-Go-Meetup-Group/',
         about:
           'This is a group for anyone interested in the Go programming language. Not just Go but anything that has to do with Go (i.e. Kubernetes, Docker, Terraform, etc). All skill levels are welcome.',
         codeOfConduct:
           'This community abides by the Go Community Code of Conduct (https://golang.org/conduct).',
         organizers: ['Troy Connor', 'Kenia']
+      },
+      colorCoded: {
+        name: '757 Color Coded',
+        location: 'Norfolk, VA',
+        url: 'https://www.meetup.com/757ColorCoded/',
+        about: `Get together with people of color in technology to share your experiences in the industry, learn about new tech, and work towards enriching the local community.
+
+You can also join us on Slack at the 757ColorCoded workspace: http://invite.757colorcoded.org`,
+        organizers: {
+          mainOrganizers: 'Guilermo A. Fisher',
+          altOrganizers: ['Lisa', 'Chazona', 'Troy Connor', 'Tonia Seenauth']
+        }
       },
       norfolkJS: {
         name: 'Norfolk JS',
@@ -43,8 +57,8 @@ export default {
         about:
           'Join us in talking about, brainstorming, and building Javascript tools and applications. We typically have one lecture meetup per month or a social "Beer.js" event. We also have several other more specific meetups for robotics, front-end development, food/social, etc. See more information at norfolkjs.org or github.com/norfolkjs.',
         organizers: {
-          organizers: 'Travis Webb',
-          cOrganizers: [
+          mainOrganizers: 'Travis Webb',
+          altOrganizers: [
             'Austin Gaylon',
             'Paul Chin Jr.',
             'Linda Nichols',
