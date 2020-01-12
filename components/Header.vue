@@ -1,9 +1,12 @@
+// TODO: make image smaller
+
 <template>
   <header>
     <b-container>
       <div class="intro-text">
         <div typ="dark" class="intro-heading">
-          Welcome to the Community
+          <img src="~assets/757-big.png" />
+          <em><p>Home of the Hampton Roads Developer community</p></em>
         </div>
         <b-button
           v-b-tooltip.hover
@@ -22,7 +25,6 @@
 <style scoped>
 header {
   text-align: center;
-  height: 100vh;
   background-color: var(--pastel-green);
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -32,12 +34,9 @@ header {
 }
 
 .intro-heading {
-  font-size: 75px;
-  font-weight: 700;
-  line-height: 75px;
-  margin-bottom: 50px;
+  font-size: 18px;
+  margin-bottom: 30px;
   color: var(--loafer);
-  text-shadow: var(--catalina-blue) 2px 4px;
 }
 
 .jn-button {
@@ -49,5 +48,9 @@ header {
 .intro-text {
   padding-top: 300px;
   padding-bottom: 200px;
+}
+
+.intro-text p {
+  padding-top: 20px;
 }
 </style>

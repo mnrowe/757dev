@@ -1,7 +1,7 @@
 <!-- TODO: Fix redundant amount of divs -->
 
 <template>
-  <div class="test">
+  <div class="meetups">
     <NavBar />
     <b-container>
       <b-list-group>
@@ -80,11 +80,6 @@ export default {
 </script>
 
 <style scoped>
-.test {
-  height: 100vh;
-  background-color: var(--pastel-green);
-}
-
 .list-group {
   padding-top: 300px;
   padding-bottom: 200px;

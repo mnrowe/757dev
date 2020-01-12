@@ -1,5 +1,5 @@
 <template>
-  <div class="test">
+  <div class="code-of-conduct">
     <NavBar />
     <b-container>
       <h1 class="text-left">Code Of Conduct</h1>
@@ -54,10 +54,6 @@ export default {
 </script>
 
 <style scoped>
-.test {
-  background-color: var(--pastel-green);
-  padding-bottom: 150px;
-}
 h1 {
   padding-top: 150px;
   text-shadow: 2px 2px var(--catalina-blue);
