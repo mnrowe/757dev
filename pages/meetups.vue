@@ -5,49 +5,7 @@
     <NavBar />
     <b-container>
       <b-list-group>
-        <b-list-group-item
-          :href="norfolkGo.url"
-          class="flex-column align-items-start"
-        >
-          <div class="d-flex w-100 justify-content-between">
-            <h5 class="mb-1">{{ norfolkGo.name }}</h5>
-            <small>3 days ago</small>
-            <img :src="norfolkGo.logo" />
-          </div>
-
-          <p class="mb-1">
-            Donec id elit non mi porta gravida at eget metus. Maecenas sed diam
-            eget risus varius blandit.
-          </p>
-
-          <small>Donec id elit non mi porta.</small>
-        </b-list-group-item>
-        <b-list-group-item href="#" class="flex-column align-items-start">
-          <div class="d-flex w-100 justify-content-between">
-            <h5 class="mb-1">List group item heading</h5>
-            <small>3 days ago</small>
-          </div>
-
-          <p class="mb-1">
-            Donec id elit non mi porta gravida at eget metus. Maecenas sed diam
-            eget risus varius blandit.
-          </p>
-
-          <small>Donec id elit non mi porta.</small>
-        </b-list-group-item>
-        <b-list-group-item href="#" class="flex-column align-items-start">
-          <div class="d-flex w-100 justify-content-between">
-            <h5 class="mb-1">List group item heading</h5>
-            <small>3 days ago</small>
-          </div>
-
-          <p class="mb-1">
-            Donec id elit non mi porta gravida at eget metus. Maecenas sed diam
-            eget risus varius blandit.
-          </p>
-
-          <small>Donec id elit non mi porta.</small>
-        </b-list-group-item>
+        <GroupItem :meetup="norfolkGo" />
       </b-list-group>
     </b-container>
   </div>
@@ -56,13 +14,14 @@
 <script>
 // import axios from 'axios'
 import NavBar from '~/components/NavBar'
-
-// const URL = 'https://api.meetup.com'
+import GroupItem from '~/components/GroupItem'
 
 export default {
   components: {
-    NavBar
+    NavBar,
+    GroupItem
   },
+  // middleware: 'events',
   data() {
     return {
       norfolkGo: {
