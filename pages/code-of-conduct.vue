@@ -62,5 +62,6 @@ h1 {
 
 p {
   font-size: 1.3rem;
+  text-shadow: 0.5px 0.5px var(--catalina-blue);
 }
 </style>

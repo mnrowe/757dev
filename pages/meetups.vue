@@ -10,7 +10,7 @@
           class="flex-column align-items-start"
         >
           <div class="d-flex w-100 justify-content-between">
-            <h5 class="mb-1">{{ norfolkGo.location }}</h5>
+            <h5 class="mb-1">{{ norfolkGo.name }}</h5>
             <small>3 days ago</small>
             <img :src="norfolkGo.logo" />
           </div>
@@ -66,6 +66,7 @@ export default {
   data() {
     return {
       norfolkGo: {
+        name: 'Norfok Go',
         location: 'Norfolk, VA',
         logo: '~assets/go.jpeg',
         url: 'https://www.meetup.com/Norfolk-Go-Meetup-Group/',
@@ -76,6 +77,7 @@ export default {
         organizers: ['Troy Connor', 'Kenia']
       },
       norfolkJS: {
+        name: 'Norfolk JS',
         location: 'Norfolk, VA',
         logo: '~assets/norfolkjs.png',
         url: 'https://www.meetup.com/NorfolkJS/',
@@ -118,9 +120,9 @@ img {
 }
 
 .list-group-item {
-  background-color: var(--algae-green);
-  color: var(--loafer);
+  background-color: var(--loafer);
   margin-top: 20px;
-  box-shadow: var(--catalina-blue) 2px 2px;
+  color: var(--catalina-blue);
+  box-shadow: var(--catalina-blue) 4px 4px;
 }
 </style>
