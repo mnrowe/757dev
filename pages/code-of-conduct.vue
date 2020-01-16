@@ -11,6 +11,7 @@
           participants to help ensuring a safe environment for everybody. tl;dr:
           Be excellent with each other.
         </b-card-text>
+        <hr />
         <b-card-text>
           Harassment includes offensive comments related to gender, gender
           identity and expression, age, sexual orientation, disability, physical
@@ -19,6 +20,7 @@
           mediums, and unwelcome sexual attention. Participants asked to stop
           any harassing behavior are expected to comply immediately.
         </b-card-text>
+        <hr />
         <b-card-text>
           Sponsors are also subject to the anti-harassment policy. In
           particular, sponsors should not use sexualized images, activities, or
@@ -28,6 +30,7 @@
           may take any action they deem appropriate, including warning the
           offender or expulsion from the Slack group.
         </b-card-text>
+        <hr />
         <b-card-text>
           If you are being harassed, notice that someone else is being harassed,
           or have any other concerns, please contact a member of the Slack group
