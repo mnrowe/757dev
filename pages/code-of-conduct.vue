@@ -2,7 +2,8 @@
   <div class="code-of-conduct">
     <NavBar />
     <b-container>
-      <b-card title="Code Of Conduct" class="mb-2">
+      <h1>Code Of Conduct</h1>
+      <b-card class="mb-2">
         <b-card-text>
           All members of our Slack group are required to agree with the
           following code of conduct. Organizers will enforce this code
@@ -52,6 +53,12 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+  color: var(--catalina-blue);
+  font-weight: 900;
+  text-decoration: underline;
+}
+
 .code-of-conduct {
   padding-top: 150px;
 }
@@ -60,7 +67,6 @@ p {
   color: var(--catalina-blue);
 }
 .mb-2 {
-  margin-top: 100px;
   background-color: var(--loafer);
   box-shadow: 2px 2px var(--catalina-blue);
 }
