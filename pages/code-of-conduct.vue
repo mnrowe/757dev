@@ -1,8 +1,7 @@
 <template>
   <div class="code-of-conduct">
     <NavBar />
-    <b-container>
-      <h1>Code Of Conduct</h1>
+    <b-container fluid>
       <b-card class="mb-2">
         <b-card-text>
           All members of our Slack group are required to agree with the
@@ -11,7 +10,6 @@
           participants to help ensuring a safe environment for everybody. tl;dr:
           Be excellent with each other.
         </b-card-text>
-        <hr />
         <b-card-text>
           Harassment includes offensive comments related to gender, gender
           identity and expression, age, sexual orientation, disability, physical
@@ -20,7 +18,6 @@
           mediums, and unwelcome sexual attention. Participants asked to stop
           any harassing behavior are expected to comply immediately.
         </b-card-text>
-        <hr />
         <b-card-text>
           Sponsors are also subject to the anti-harassment policy. In
           particular, sponsors should not use sexualized images, activities, or
@@ -30,7 +27,6 @@
           may take any action they deem appropriate, including warning the
           offender or expulsion from the Slack group.
         </b-card-text>
-        <hr />
         <b-card-text>
           If you are being harassed, notice that someone else is being harassed,
           or have any other concerns, please contact a member of the Slack group
@@ -68,9 +64,14 @@ h1 {
 
 p {
   color: var(--catalina-blue);
+  font-size: 150%;
 }
 .mb-2 {
   background-color: var(--loafer);
-  box-shadow: 2px 2px var(--catalina-blue);
+  box-shadow: 4px 4px var(--catalina-blue);
+}
+
+.card-body {
+  margin: 50px 0;
 }
 </style>
