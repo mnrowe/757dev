@@ -23,6 +23,7 @@ export default {
     NavBar,
     GroupItem
   },
+  // Middleware to pull data from meetup RSS feed. Not working yet.
   // middleware: 'events',
   data() {
     return {
@@ -30,7 +31,7 @@ export default {
         name: 'Norfok Go',
         location: 'Norfolk, VA',
         logo: '~/assets/go.jpeg',
-        url: 'https://www.meetup.com/Norfolk-Go-Meetup-Group/',
+        meetUpUrl: 'https://www.meetup.com/Norfolk-Go-Meetup-Group/',
         about:
           'This is a group for anyone interested in the Go programming language. Not just Go but anything that has to do with Go (i.e. Kubernetes, Docker, Terraform, etc). All skill levels are welcome.',
         codeOfConduct:
@@ -40,10 +41,8 @@ export default {
       colorCoded: {
         name: '757 Color Coded',
         location: 'Norfolk, VA',
-        url: 'https://www.meetup.com/757ColorCoded/',
-        about: `Get together with people of color in technology to share your experiences in the industry, learn about new tech, and work towards enriching the local community.
-
-You can also join us on Slack at the 757ColorCoded workspace: http://invite.757colorcoded.org`,
+        meetUpUrl: 'https://www.meetup.com/757ColorCoded/',
+        about: `Get together with people of color in technology to share your experiences in the industry, learn about new tech, and work towards enriching the local community.`,
         organizers: {
           mainOrganizers: 'Guilermo A. Fisher',
           altOrganizers: ['Lisa', 'Chazona', 'Troy Connor', 'Tonia Seenauth']
@@ -52,10 +51,10 @@ You can also join us on Slack at the 757ColorCoded workspace: http://invite.757c
       norfolkJS: {
         name: 'Norfolk JS',
         location: 'Norfolk, VA',
-        logo: '~assets/norfolkjs.png',
-        url: 'https://www.meetup.com/NorfolkJS/',
+        logo: '~/assets/norfolkjs.png',
+        meetUpUrl: 'https://www.meetup.com/NorfolkJS/',
         about:
-          'Join us in talking about, brainstorming, and building Javascript tools and applications. We typically have one lecture meetup per month or a social "Beer.js" event. We also have several other more specific meetups for robotics, front-end development, food/social, etc. See more information at norfolkjs.org or github.com/norfolkjs.',
+          'Join us in talking about, brainstorming, and building Javascript tools and applications. We typically have one lecture meetup per month or a social "Beer.js" event. We also have several other more specific meetups for robotics, front-end development, food/social, etc.',
         organizers: {
           mainOrganizers: 'Travis Webb',
           altOrganizers: [
@@ -67,6 +66,18 @@ You can also join us on Slack at the 757ColorCoded workspace: http://invite.757c
             'Brandon Flade'
           ],
           eventOrganizers: 'Kenia'
+        }
+      },
+      dockerHamptonRoads: {
+        name: 'Docker Hampton Roads',
+        location: 'Virginia Beach, VA',
+        logo: '',
+        meetUpUrl: 'https://www.meetup.com/Docker-Hampton-Roads/',
+        about: '',
+        organizers: {
+          mainOrganizers: 'Moby Dock',
+          altOrganizers: 'Bret Fisher',
+          assistantOrganizers: 'Noel Lucas'
         }
       }
     }
@@ -94,7 +105,7 @@ img {
 
 .list-group-item {
   background-color: var(--loafer);
-  margin-top: 20px;
+  margin-top: 10px;
   color: var(--catalina-blue);
   box-shadow: var(--catalina-blue) 4px 4px;
 }
