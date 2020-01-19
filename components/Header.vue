@@ -6,7 +6,7 @@
       <div class="intro-text">
         <div typ="dark" class="intro-heading">
           <img src="~assets/757-big.png" />
-          <em><p>Home of the Hampton Roads Developer community</p></em>
+          <p>Home of the Hampton Roads <em>Developer</em> community</p>
         </div>
         <b-button
           v-b-tooltip.hover
@@ -30,7 +30,6 @@ header {
   background-attachment: scroll;
   background-position: 50%;
   background-size: cover;
-  opacity: 0.9;
 }
 
 .intro-heading {
@@ -53,5 +52,6 @@ header {
 .intro-text p {
   padding-top: 20px;
   font-family: 'Montseratt';
+  color: var(--loafer);
 }
 </style>
