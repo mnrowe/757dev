@@ -18,7 +18,7 @@
           <small>{{ meetup.location }}</small>
         </b-col>
         <b-col>
-          <b-img :src="meetup.logo" fluid rounded="circle"></b-img>
+          <b-img :src="`img/${meetup.logo}`" fluid rounded="circle"></b-img>
         </b-col>
       </b-row>
     </b-container>

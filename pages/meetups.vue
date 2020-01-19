@@ -30,7 +30,7 @@ export default {
       norfolkGo: {
         name: 'Norfok Go',
         location: 'Norfolk, VA',
-        logo: '_nuxt/assets/go.jpeg',
+        logo: 'go.jpeg',
         meetUpUrl: 'https://www.meetup.com/Norfolk-Go-Meetup-Group/',
         about:
           'This is a group for anyone interested in the Go programming language. Not just Go but anything that has to do with Go (i.e. Kubernetes, Docker, Terraform, etc). All skill levels are welcome.',
@@ -51,7 +51,7 @@ export default {
       norfolkJS: {
         name: 'Norfolk JS',
         location: 'Norfolk, VA',
-        logo: '_nuxt/assets/norfolkjs.png',
+        logo: 'norfolkjs.png',
         meetUpUrl: 'https://www.meetup.com/NorfolkJS/',
         about:
           'Join us in talking about, brainstorming, and building Javascript tools and applications. We typically have one lecture meetup per month or a social "Beer.js" event. We also have several other more specific meetups for robotics, front-end development, food/social, etc.',
