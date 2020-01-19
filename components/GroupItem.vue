@@ -1,6 +1,7 @@
 <template>
   <b-list-group-item
     :href="meetup.meetUpUrl"
+    target="_blank"
     variant="dark"
     class="flex-column align-items-start"
   >

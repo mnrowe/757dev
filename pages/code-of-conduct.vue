@@ -38,6 +38,7 @@
         </b-card-text>
       </b-card>
     </b-container>
+    <Footer />
   </div>
 </template>
 
@@ -72,6 +73,6 @@ p {
 }
 
 .card-body {
-  margin: 50px 0;
+  margin: 20px 0;
 }
 </style>
