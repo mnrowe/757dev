@@ -6,7 +6,7 @@ Where the idea originated from [post](https://github.com/757io/757dev/issues/2)
 * Easy to access slack invite link
 * Code of conduct
 * List of major events
-* Pull weekly events from RSS feed (require subscription to use Meetup API)
+* Pull weekly events from RSS feed (requires subscription to use Meetup API)
 * Need permission from organizers to use meetup logos
 
 # Design
