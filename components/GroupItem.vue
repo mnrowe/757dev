@@ -1,12 +1,13 @@
+// TODO: fix image width and height
+
 <template>
   <b-list-group-item
     :href="meetup.meetUpUrl"
-    target="_blank"
     variant="dark"
     class="flex-column align-items-start"
   >
     <b-container>
-      <b-row>
+      <b-row align-v="center">
         <b-col cols="10">
           <div class="d-flex w-100 justify-content-between">
             <h5 class="mb-1">{{ meetup.name }}</h5>
@@ -32,3 +33,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.img-fluid {
+  width: 118px;
+  height: 118px;
+}
+</style>

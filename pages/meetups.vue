@@ -6,8 +6,10 @@
     <b-container>
       <b-list-group>
         <GroupItem :meetup="colorCoded" />
+        <GroupItem :meetup="dockerHamptonRoads" />
         <GroupItem :meetup="norfolkGo" />
         <GroupItem :meetup="norfolkJS" />
+        <GroupItem :meetup="kubernetes757" />
       </b-list-group>
     </b-container>
   </div>
@@ -41,6 +43,7 @@ export default {
       colorCoded: {
         name: '757 Color Coded',
         location: 'Norfolk, VA',
+        logo: '757cc.jpeg',
         meetUpUrl: 'https://www.meetup.com/757ColorCoded/',
         about: `Get together with people of color in technology to share your experiences in the industry, learn about new tech, and work towards enriching the local community.`,
         organizers: {
@@ -68,12 +71,26 @@ export default {
           eventOrganizers: 'Kenia'
         }
       },
+      kubernetes757: {
+        name: 'Kubernetes 757',
+        location: 'Virginia Beach, VA',
+        logo: 'kub757.jpeg',
+        meetUpUrl: 'https://www.meetup.com/kubernetes-757/',
+        about: `Kubernetes 757 will cover CNCF topics to include, Kubernetes, containers (aka docker), DevOps, DevSecOps, CI/CD, and anything related to creating or maintaining cloud-native applications.`,
+        organizers: {
+          mainOrganizers: 'Matthew Bach',
+          altOrganizers: 'Brandon Gulla',
+          eventOrganizers: ['Bret Fisher', 'Noel Lucas']
+        }
+      },
       dockerHamptonRoads: {
         name: 'Docker Hampton Roads',
         location: 'Virginia Beach, VA',
-        logo: '',
+        logo: 'dckrhr.jpeg',
         meetUpUrl: 'https://www.meetup.com/Docker-Hampton-Roads/',
-        about: '',
+        about: `Learn, Collaborate & Dockerize! Meet other developers and ops engineers in your community that are using and learning about Docker. Docker is an open platform that helps you build, ship and run applications anytime and anywhere. Developers use Docker to modify code and to streamline application development, while operations gain support to quickly and flexibly respond to their changing needs. Docker ensures agility, portability and control for all your distributed apps.
+
+Docker is also the main sponsor of the Moby Project, an open framework to assemble specialized container systems without reinventing the wheel.`,
         organizers: {
           mainOrganizers: 'Moby Dock',
           altOrganizers: 'Bret Fisher',
