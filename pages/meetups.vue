@@ -29,6 +29,22 @@ export default {
   // middleware: 'events',
   data() {
     return {
+      lateNightCoders: {
+        name: 'Late Night Coders',
+        location: 'Virginia Beach, VA',
+        logo: 'test.png',
+        meetupUrl: 'https://www.meetup.com/757dev',
+        about: `Can't sleep? Stay up all night coding? Or can't make the usual meetups till the kids are in bed?
+
+Late Night Coders is a meetup for the rest of us.
+
+Let's get together and share what we're working on, co-work, or get help on any problems we're running into.
+
+Anyone is welcome at any experience or sleep-deprivation level. Bring your laptop! Or just come hang out with cool people.
+
+Brixx is open late and has great wood-fire pizza, and half-off deals on food after 10. Come on out for some pizza, code, and good chats!`,
+        organizers: ['Greg Norman']
+      },
       norfolkGo: {
         name: 'Norfok Go',
         location: 'Norfolk, VA',
