@@ -10,6 +10,7 @@
         <GroupItem :meetup="norfolkGo" />
         <GroupItem :meetup="norfolkJS" />
         <GroupItem :meetup="kubernetes757" />
+        <GroupItem :meetup="lateNightCoders" />
       </b-list-group>
     </b-container>
   </div>
@@ -32,7 +33,7 @@ export default {
       lateNightCoders: {
         name: 'Late Night Coders',
         location: 'Virginia Beach, VA',
-        logo: 'test.png',
+        logo: 'lnc.jpeg',
         meetupUrl: 'https://www.meetup.com/757dev',
         about: `Can't sleep? Stay up all night coding? Or can't make the usual meetups till the kids are in bed?
 
