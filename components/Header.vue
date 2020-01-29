@@ -1,4 +1,4 @@
-// TODO: make image smaller
+// TODO: make meetup logo responsive
 
 <template>
   <header>
@@ -18,6 +18,29 @@
           >Join slack</b-button
         >
       </div>
+      // TODO: change layout of carousel
+      <b-carousel
+        id="carousel-1"
+        v-model="slide"
+        controls
+        indicators
+        background="#ababab"
+        img-width="1024"
+        img-height="480"
+        style="box-shadow: var(--catalina-blue) 4px 4px;"
+        @sliding-start="onSlideStart"
+        @sliding-end="onSlideEnd"
+      >
+        <b-carousel-slide
+          img-src="https://picsum.photos/1024/480/?image=52"
+        ></b-carousel-slide>
+        <b-carousel-slide
+          img-src="https://picsum.photos/1024/480/?image=54"
+        ></b-carousel-slide>
+        <b-carousel-slide
+          img-src="https://picsum.photos/1024/480/?image=58"
+        ></b-carousel-slide>
+      </b-carousel>
     </b-container>
   </header>
 </template>
@@ -45,8 +68,8 @@ header {
 }
 
 .intro-text {
-  padding-top: 300px;
-  padding-bottom: 200px;
+  padding-top: 150px;
+  padding-bottom: 20px;
 }
 
 .intro-text p {
