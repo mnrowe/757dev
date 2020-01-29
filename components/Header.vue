@@ -18,7 +18,7 @@
           >Join slack</b-button
         >
       </div>
-      // TODO: change layout of carousel
+      <!-- change layout of carousel -->
       <b-carousel
         id="carousel-1"
         v-model="slide"
